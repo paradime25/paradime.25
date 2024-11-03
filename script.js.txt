@@ -1,0 +1,8 @@
+document.getElementById("registrationForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the form from submitting the usual way
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+
+    document.getElementById("responseMessage").textContent = `Thank you for registering, ${name}! A confirmation email will be sent to ${email}.`;
+});

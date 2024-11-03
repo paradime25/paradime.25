@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradime School Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Paradime 2023</h1>
+        <p>Welcome to the official website for Paradime - the ultimate school event!</p>
+    </header>
+
+    <section id="about">
+        <h2>About Paradime</h2>
+        <p>Paradime is an annual event where students can showcase their talents and participate in exciting activities.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <ul>
+            <li>Opening Ceremony: 9:00 AM</li>
+            <li>Workshops and Activities: 10:00 AM - 4:00 PM</li>
+            <li>Awards and Closing Ceremony: 5:00 PM</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Register for Paradime</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <footer>
+        <p>Contact us at <a href="mailto:info@paradime.com">info@paradime.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
